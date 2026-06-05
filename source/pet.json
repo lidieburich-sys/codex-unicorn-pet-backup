@@ -1,0 +1,6 @@
+{
+  "id": "codex-unicorn",
+  "displayName": "Codex Unicorn",
+  "description": "A smooth pastel coding companion with idle, run, wave, sleep, code, review, and failed states.",
+  "spritesheetPath": "spritesheet.webp"
+}
