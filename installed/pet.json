@@ -1,6 +1,7 @@
 {
-  "id": "codex-unicorn",
-  "displayName": "Codex Unicorn",
-  "description": "A smooth pastel coding companion with idle, run, wave, sleep, code, review, and failed states.",
+  "id": "codex-current-backup",
+  "displayName": "Codex (Backup)",
+  "description": "A snapshot of the built-in blue pixel Codex companion selected on 2026-07-17.",
+  "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp"
 }

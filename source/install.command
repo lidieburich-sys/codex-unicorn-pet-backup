@@ -1,13 +1,13 @@
 #!/bin/zsh
 set -euo pipefail
 
-SOURCE_DIR="$(cd "$(dirname "$0")" && pwd)"
-TARGET_DIR="$HOME/.codex/pets/codex-unicorn"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+REPO_DIR="$(dirname "$SCRIPT_DIR")"
+TARGET_DIR="$HOME/.codex/pets/codex-current-backup"
 
 mkdir -p "$TARGET_DIR"
-cp "$SOURCE_DIR/pet.json" "$SOURCE_DIR/spritesheet.webp" "$TARGET_DIR/"
+cp "$REPO_DIR/installed/pet.json" "$REPO_DIR/installed/spritesheet.webp" "$TARGET_DIR/"
 
-echo "Codex Unicorn installed."
+echo "Codex (Backup) installed."
 echo "Target: $TARGET_DIR"
-echo "Restart Codex or reselect the pet if it is already open."
-read -r "?Press Enter to close..."
+echo "Refresh the Pets settings, then select Codex (Backup)."
